@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pet Adoption Center</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#pets">Available Pets</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Find Your Forever Friend</h2>
+            <p>Adopt a pet and give them a loving home.</p>
+            <a href="#pets" class="btn">View Available Pets</a>
+        </div>
+    </section>
+    
+    <main class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to finding loving homes for pets in need. Our mission is to rescue, rehabilitate, and rehome animals.</p>
+        </section>
+        
+        <section id="pets">
+            <h2>Available Pets</h2>
+            <div class="pet-container">
+                <div class="pet-card">
+                    <img src="https://source.unsplash.com/300x200/?dog" alt="Dog">
+                    <h3>Buddy</h3>
+                    <p>Breed: Golden Retriever</p>
+                    <p>Age: 3 years</p>
+                    <p>Friendly and loves to play!</p>
+                </div>
+                <div class="pet-card">
+                    <img src="https://source.unsplash.com/300x200/?cat" alt="Cat">
+                    <h3>Whiskers</h3>
+                    <p>Breed: Tabby Cat</p>
+                    <p>Age: 2 years</p>
+                    <p>Affectionate and loves to cuddle!</p>
+                </div>
+                <div class="pet-card">
+                    <img src="https://source.unsplash.com/300x200/?rabbit" alt="Rabbit">
+                    <h3>Fluffy</h3>
+                    <p>Breed: Holland Lop</p>
+                    <p>Age: 1 year</p>
+                    <p>Playful and loves to hop around!</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Pet Adoption Center. All rights reserved.</p>
+    </footer>
+</body>
+</html>
